@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    min-height: 60px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    z-index: 2;
+    padding: 10px 15px;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            mix-blend-mode: multiply;
+            height: 63px;
+            width: 189px;
+            object-fit: cover;
+
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .get-in-tuch {
+                padding: 7px 20px;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                background-color: beige;
+                color: black;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.25s ease-in;
+
+                &:hover {
+                    background-color: rgb(173, 173, 5);
+                    color: white;
+
+                }
+            }
+        }
+    }
+
+    .nav {
+        ul {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+
+            li {
+                list-style: none;
+
+                a {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    text-decoration: none;
+                    gap: 5px;
+                    color: rgb(100, 100, 100);
+                    font-size: 18px;
+                    // font-weight: 600;
+
+                    svg {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    &:hover {
+                        color: rgb(0, 0, 0);
+                    }
+                }
+            }
+
+        }
+    }
+}

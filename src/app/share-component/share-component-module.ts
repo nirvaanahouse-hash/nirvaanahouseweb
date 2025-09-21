@@ -1,15 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Header } from './header/header';
+import { AdminRoutingModule } from "../admin/admin-routing-module";
+import { Footer } from './footer/footer';
 
 
 
 @NgModule({
   declarations: [
-    Header
+    Header,
+    Footer
   ],
   imports: [
-    CommonModule
-  ], exports: [Header]
+    CommonModule,
+    AdminRoutingModule
+], exports: [Header,Footer]
 })
 export class ShareComponentModule { }

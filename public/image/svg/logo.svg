@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 300" role="img" aria-label="NIRVAANA HOUSE logo">
+  <title>NIRVAANA HOUSE</title>
+  
+  <!-- NIRVAANA word -->
+  <text x="675" y="160" font-family="Arial Black, Impact, Arial, sans-serif" font-weight="900"
+        font-size="160" fill="#000000" text-anchor="middle" letter-spacing="-6">NIRVAANA</text>
+
+  <!-- HOUSE letters with ~10px gap below -->
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="46" fill="#000000" text-anchor="middle">
+    <text x="400" y="230">H</text>
+    <text x="560" y="230">O</text>
+    <text x="730" y="230">U</text>
+    <text x="900" y="230">S</text>
+    <text x="1070" y="230">E</text>
+  </g>
+</svg>
